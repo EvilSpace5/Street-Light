@@ -1,0 +1,86 @@
+THIS CODE WORKS
+// The is a street light that does not use weight senors but goes off of time basic off the delay of the LED 
+
+
+int off = 0;
+int on = 10;
+// Off and On 
+int red = 13;
+int yellow = 12;
+int green = 11;
+// Variables First LED
+
+int green2 = 1;
+int yellow2 = 2;
+int red2 = 3;
+// Variables Second LED
+
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(yellow, OUTPUT);
+  pinMode(green, OUTPUT);
+  pinMode(red2, OUTPUT);
+  pinMode(yellow2, OUTPUT);
+  pinMode(green2, OUTPUT);
+}
+
+// Turn the LED on gives them outputs 
+
+
+
+
+
+
+void loop() {
+ 
+
+
+ digitalWrite(red2, on);
+ delay(2000);
+ digitalWrite(green, on);
+ delay(10000);
+ digitalWrite(green, off);
+ digitalWrite(yellow, on);
+ delay(3000);
+ digitalWrite(yellow, off);
+ digitalWrite(red, on);
+ delay(2000);
+ digitalWrite(red2, off);
+ digitalWrite(green2, on);
+ delay(10000);
+ digitalWrite(green2, off);
+ digitalWrite(yellow2, on);
+ delay(3000);
+ digitalWrite(yellow2, off);
+ digitalWrite(red2, on);
+ delay(2000);
+ digitalWrite(red, off);
+ digitalWrite(green, on);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
